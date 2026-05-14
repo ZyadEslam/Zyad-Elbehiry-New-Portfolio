@@ -1,6 +1,6 @@
 import { navItems, profile } from "../../data/portfolio";
 import { useClock } from "../../hooks/useClock";
-import Icon from "../../UI/Icon";
+import Icon from "../../ui/Icon";
 // import Icon from "../ui/Icon";
 
 export default function Sidebar({ activeTab, setActiveTab }) {

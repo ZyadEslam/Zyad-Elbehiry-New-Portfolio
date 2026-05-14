@@ -1,4 +1,4 @@
-import { profile } from "./data/portfolio";
+﻿import { profile } from "./data/portfolio";
 import Header from "./components/layout/Header";
 import Sidebar from "./components/layout/Sidebar";
 import MobileBottomNav from "./components/layout/MobileBottomNav";
@@ -46,7 +46,7 @@ export default function App() {
         <footer className="relative z-10 border-t border-white/10 bg-black/30 py-8  px-6 pb-28 md:pb-8">
           <div className="max-w-[1600px] mx-auto flex flex-col md:flex-row justify-between items-center gap-4 text-center md:text-left ">
             <p className="text-xs text-on-surface-variant ">
-              © 2026 {profile.name}. Built with React, Vite, and Tailwind CSS.
+              Â© 2026 {profile.name}. Built with React, Vite, and Tailwind CSS.
             </p>
 
             <p className="text-xs text-primary-container font-technical-sm uppercase tracking-[0.25em]">

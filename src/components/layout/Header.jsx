@@ -1,5 +1,5 @@
 import { navItems, profile } from "../../data/portfolio";
-import Icon from "../../UI/Icon";
+import Icon from "../../ui/Icon";
 // import Icon from "../ui/Icon";
 
 export default function Header() {

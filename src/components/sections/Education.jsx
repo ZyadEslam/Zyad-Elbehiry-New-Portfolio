@@ -1,6 +1,6 @@
 import { courses, education, languages } from "../../data/portfolio";
-import Chip from "../../UI/Chip";
-import Icon from "../../UI/Icon";
+import Chip from "../../ui/Chip";
+import Icon from "../../ui/Icon";
 // import Chip from "../ui/Chip";
 // import Icon from "../ui/Icon";
 

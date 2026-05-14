@@ -1,5 +1,5 @@
 import { navItems } from "../../data/portfolio";
-import Icon from "../../UI/Icon";
+import Icon from "../../ui/Icon";
 // import Icon from "../ui/Icon";
 
 const mobileHrefs = ["#home", "#experience", "#projects", "#skills", "#contact"];

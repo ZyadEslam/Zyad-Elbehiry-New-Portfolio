@@ -1,6 +1,6 @@
 import { profile, projects } from "../../data/portfolio";
-import Icon from "../../UI/Icon";
-import SectionTitle from "../../UI/SectionTitle";
+import Icon from "../../ui/Icon";
+import SectionTitle from "../../ui/SectionTitle";
 // import SectionTitle from "../ui/SectionTitle";
 
 export default function Projects() {
