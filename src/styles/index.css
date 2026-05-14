@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    min-height: 100vh;
+    background-color: #131314;
+    background-image:
+      linear-gradient(rgba(204, 255, 0, 0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(204, 255, 0, 0.03) 1px, transparent 1px);
+    background-size: 32px 32px;
+  }
+
+  section {
+    scroll-margin-top: 96px;
+  }
+}
+
+@layer components {
+  .glass-panel {
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.03);
+  }
+
+  .glow-hover {
+    transition:
+      box-shadow 250ms ease,
+      border-color 250ms ease,
+      transform 250ms ease;
+  }
+
+  .glow-hover:hover {
+    box-shadow: 0 0 24px rgba(195, 244, 0, 0.18);
+    border-color: rgba(195, 244, 0, 0.45);
+    transform: translateY(-2px);
+  }
+
+  .grid-overlay {
+    background-image: radial-gradient(rgba(171, 214, 0, 0.1) 1px, transparent 1px);
+    background-size: 32px 32px;
+  }
+
+  .project-visual-lime {
+    background:
+      radial-gradient(circle at 25% 30%, rgba(195, 244, 0, 0.28), transparent 35%),
+      radial-gradient(circle at 80% 20%, rgba(0, 238, 252, 0.18), transparent 30%),
+      linear-gradient(135deg, rgba(195, 244, 0, 0.09), rgba(255, 255, 255, 0.02));
+  }
+
+  .project-visual-cyan {
+    background:
+      radial-gradient(circle at 25% 30%, rgba(0, 238, 252, 0.26), transparent 35%),
+      radial-gradient(circle at 80% 20%, rgba(195, 244, 0, 0.16), transparent 30%),
+      linear-gradient(135deg, rgba(0, 238, 252, 0.08), rgba(255, 255, 255, 0.02));
+  }
+
+  .project-visual-purple {
+    background:
+      radial-gradient(circle at 25% 30%, rgba(248, 216, 255, 0.22), transparent 35%),
+      radial-gradient(circle at 80% 20%, rgba(195, 244, 0, 0.14), transparent 30%),
+      linear-gradient(135deg, rgba(248, 216, 255, 0.08), rgba(255, 255, 255, 0.02));
+  }
+
+  .material-symbols-outlined {
+    font-variation-settings:
+      "FILL" 0,
+      "wght" 400,
+      "GRAD" 0,
+      "opsz" 24;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.12);
+    border-radius: 9999px;
+  }
+}
+
+@media (max-width: 768px) {
+  .mobile-bottom-nav-fix {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+}
