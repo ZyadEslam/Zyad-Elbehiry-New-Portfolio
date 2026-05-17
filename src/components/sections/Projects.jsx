@@ -40,7 +40,7 @@ export default function Projects() {
                 <img
                   src={project.thumbnail}
                   alt={project.name}
-                  className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                  className="absolute inset-0 w-full object-cover group-hover:scale-105 transition-transform duration-700"
                 />
               )}
               <div className="absolute inset-0 bg-gradient-to-t from-surface to-transparent" />
