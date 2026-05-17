@@ -1,0 +1,41 @@
+import { memo } from "react";
+import { skillGroups } from "../../data/portfolio.ts";
+import Icon from "../../components/ui/Icon.tsx";
+
+export const SkillStack = memo(function SkillStack() {
+  return (
+    <section id="skills" className="glass-panel rounded-xl p-6">
+      <h3 className="font-headline-md text-sm mb-6 flex items-center justify-between text-primary">
+        Tech Stack
+        <Icon name="memory" className="text-secondary-container text-lg" />
+      </h3>
+
+      <div className="space-y-6">
+        {skillGroups.map((group) => (
+          <div key={group.title}>
+            <div className="flex items-center gap-2 mb-3">
+              <Icon name={group.icon} className="text-primary-container text-lg" />
+
+              <h4 className="text-sm font-bold text-primary font-headline-md">{group.title}</h4>
+            </div>
+
+            <div className="flex flex-wrap gap-2">
+              {group.items.map((item, index) => (
+                <span
+                  key={item}
+                  className={
+                    index % 3 === 0
+                      ? "px-3 py-1 rounded-full bg-primary-container/5 border border-primary-container/20 text-[10px] text-primary-container font-technical-sm uppercase tracking-wider"
+                      : "px-3 py-1 rounded-full bg-white/5 border border-white/10 text-[10px] text-on-surface-variant font-technical-sm uppercase tracking-wider"
+                  }
+                >
+                  {item}
+                </span>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+});
