@@ -1,4 +1,4 @@
-import { experiences } from "../../data/portfolio";
+﻿import { experiences } from "../../data/portfolio";
 import Icon from "../../ui/Icon";
 import SectionTitle from "../../ui/SectionTitle";
 
@@ -39,7 +39,7 @@ export default function Experience() {
                   </h3>
 
                   <p className="text-on-surface-variant mt-1">
-                    {experience.company} · {experience.location}
+                    {experience.company} Â· {experience.location}
                   </p>
                 </div>
 

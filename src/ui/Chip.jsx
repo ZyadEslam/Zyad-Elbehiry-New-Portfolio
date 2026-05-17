@@ -1,4 +1,4 @@
-const variants = {
+﻿const variants = {
     lime:
       "border-primary-container/30 bg-primary-container/5 text-primary-container",
     cyan:

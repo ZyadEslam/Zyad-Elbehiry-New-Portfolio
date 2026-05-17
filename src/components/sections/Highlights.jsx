@@ -1,4 +1,4 @@
-import { highlights } from "../../data/portfolio";
+﻿import { highlights } from "../../data/portfolio";
 import Icon from "../../ui/Icon";
 // import Icon from "../ui/Icon";
 

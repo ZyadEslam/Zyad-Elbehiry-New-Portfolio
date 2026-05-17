@@ -60,7 +60,7 @@ export const experiences = [
   {
     role: "Web Development & Programming Instructor",
     company: "Discovery Academy for Science and Technology",
-    period: "Jun 2024 – Present",
+    period: "Jun 2024 - Present",
     location: "Cairo, Egypt",
     type: "Education / Mentorship",
     bullets: [
@@ -70,9 +70,9 @@ export const experiences = [
     ],
   },
   {
-    role: "Fullstack Developer — Freelance",
+    role: "Fullstack Developer - Freelance",
     company: "PowerPoint World",
-    period: "Dec 2025 – Feb 2026",
+    period: "Dec 2025 - Feb 2026",
     location: "Cairo, Egypt",
     type: "Production E-commerce",
     bullets: [
@@ -84,13 +84,13 @@ export const experiences = [
     ],
   },
   {
-    role: "Fullstack Developer — Freelance",
+    role: "Fullstack Developer - Freelance",
     company: "Espesyal Fashion",
-    period: "Oct 2025 – Dec 2025",
+    period: "Oct 2025 - Dec 2025",
     location: "Cairo, Egypt",
     type: "Fashion E-commerce",
     bullets: [
-      "Delivered a bilingual women’s fashion e-commerce platform end-to-end.",
+      "Delivered a bilingual womenâ€™s fashion e-commerce platform end-to-end.",
       "Built a responsive storefront using Next.js 15, TypeScript, and Tailwind CSS with mobile-first design.",
       "Integrated Paymob payments and NextAuth authentication with session management.",
       "Created real-time order tracking and an admin dashboard for products, inventory, and shipping.",
@@ -103,9 +103,12 @@ export const projects = [
   {
     name: "PowerPoint World",
     role: "Fullstack Developer",
-    period: "Dec 2025 – Feb 2026",
+    period: "Dec 2025 - Feb 2026",
     icon: "shopping_cart",
     visualClass: "project-visual-lime",
+    thumbnail: "https://res.cloudinary.com/darxwbvff/image/upload/v1779015916/ChatGPT_Image_May_14_2026_05_01_24_PM_pbhp0g.png",
+    // github: "https://github.com/zyadelbehiry",
+    link: "https://powerpointworld.com",
     description:
       "Production-ready e-commerce platform for PowerPoint templates with payments, order tracking, bilingual support, and admin capabilities.",
     tech: [
@@ -123,11 +126,15 @@ export const projects = [
   {
     name: "Espesyal Fashion",
     role: "Fullstack Developer",
-    period: "Oct 2025 – Dec 2025",
+    period: "Oct 2025 - Dec 2025",
     icon: "checkroom",
     visualClass: "project-visual-cyan",
+    thumbnail:
+      "https://res.cloudinary.com/darxwbvff/image/upload/v1779015915/ChatGPT_Image_May_16_2026_01_17_42_PM_jydh6j.png",
+    github: "https://github.com/zyadelbehiry",
+    link: "https://espesyal-fashion.vercel.app",
     description:
-      "Bilingual women’s fashion e-commerce platform including authentication, secure checkout, admin dashboard, and real-time order management.",
+      "Bilingual womenâ€™s fashion e-commerce platform including authentication, secure checkout, admin dashboard, and real-time order management.",
     tech: [
       "Next.js 15",
       "TypeScript",
@@ -141,9 +148,13 @@ export const projects = [
   {
     name: "Graphic Designer's Portfolio",
     role: "Frontend Developer",
-    period: "Mar 2025 – Apr 2025",
+    period: "Mar 2025 - Apr 2025",
     icon: "palette",
     visualClass: "project-visual-purple",
+    thumbnail:
+      "https://res.cloudinary.com/darxwbvff/image/upload/v1779017089/Thumbnail_mwm53f.png",
+    github: "https://github.com/zyadelbehiry",
+    link: "https://designerportfolio.example.com",
     description:
       "Responsive personal portfolio with smooth scroll animations, mobile-first layout, optimized Lighthouse performance, and pixel-perfect UI.",
     tech: ["Next.js", "Tailwind CSS", "Framer Motion"],
@@ -243,10 +254,10 @@ export const skillGroups = [
 ];
 
 export const education = {
-  degree: "Bachelor – Computer Science",
+  degree: "Bachelor - Computer Science",
   school: "Faculty of Computer and Information Science, Ain Shams University",
   department: "Computer Science Department",
-  period: "Sep 2020 – Jul 2024",
+  period: "Sep 2020 - Jul 2024",
   location: "Cairo, Egypt",
 };
 
@@ -256,8 +267,8 @@ export const courses = [
     provider: "DEPI Institution",
   },
   {
-    name: "React – The Complete Guide, including React.js, Next.js, Redux",
-    provider: "Udemy — Maximilian Schwarzmüller",
+    name: "React - The Complete Guide, including React.js, Next.js, Redux",
+    provider: "Udemy - Maximilian SchwarzmÃ¼ller",
   },
 ];
 

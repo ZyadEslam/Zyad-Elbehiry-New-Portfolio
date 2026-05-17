@@ -1,4 +1,4 @@
-export default function Icon({ name, className = "", fill = false }) {
+﻿export default function Icon({ name, className = "", fill = false }) {
     return (
       <span
         className={`material-symbols-outlined ${className}`}

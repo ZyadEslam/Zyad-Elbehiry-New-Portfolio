@@ -1,4 +1,4 @@
-import { navItems, profile } from "../../data/portfolio";
+﻿import { navItems, profile } from "../../data/portfolio";
 import Icon from "../../ui/Icon";
 // import Icon from "../ui/Icon";
 
