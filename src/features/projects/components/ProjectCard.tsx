@@ -37,7 +37,8 @@ const ProjectCard = memo(function ProjectCard({ project, onSelectImage }: Projec
 
         <div className="absolute bottom-5 left-5 flex items-center gap-3">
           <div className="w-12 h-12 rounded-xl bg-black/45 border border-white/10 backdrop-blur-md flex items-center justify-center">
-            <Icon name={project.icon} className="text-primary-container" />
+            {/* <Icon name={project.icon} className="text-primary-container" /> */}
+            <img src={project.icon} alt={project.name} className="w-6 h-6 rounded-full" />
           </div>
 
           <div>

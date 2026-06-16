@@ -189,21 +189,30 @@ export const projects: Project[] = [
     name: "PowerPoint World",
     role: "Fullstack Developer",
     period: "Dec 2025 - Feb 2026",
-    icon: "shopping_cart",
+    icon: "https://res.cloudinary.com/darxwbvff/image/upload/v1779096335/originalLogo-no-bg_iqv0s2.png",
     visualClass: "project-visual-lime",
     thumbnail:
       "https://res.cloudinary.com/darxwbvff/image/upload/v1779015916/ChatGPT_Image_May_14_2026_05_01_24_PM_pbhp0g.png",
     link: "https://powerpointworld.com",
     description:
       "Production-ready e-commerce platform for PowerPoint templates with payments, order tracking, bilingual support, and admin capabilities.",
-    tech: ["Next.js 15", "React 19", "TypeScript", "MongoDB", "Mongoose", "Paymob", "SSR", "SSG"],
+    tech: [
+      "Next.js 15",
+      "React 19",
+      "TypeScript",
+      "MongoDB",
+      "Mongoose",
+      "Paymob",
+      "SSR",
+      "SSG",
+    ],
     metrics: ["Payment Integration", "Admin Dashboard", "EN/AR + RTL"],
   },
   {
     name: "Espesyal Fashion",
     role: "Fullstack Developer",
     period: "Oct 2025 - Dec 2025",
-    icon: "checkroom",
+    icon: "https://res.cloudinary.com/darxwbvff/image/upload/v1779096305/%D9%85%D8%AA%D9%81%D8%B1%D8%BA_2_%D8%AA%D8%B9%D8%AF%D9%8A%D9%84_p4lzks.png",
     visualClass: "project-visual-cyan",
     thumbnail:
       "https://res.cloudinary.com/darxwbvff/image/upload/v1779015915/ChatGPT_Image_May_16_2026_01_17_42_PM_jydh6j.png",
@@ -211,14 +220,50 @@ export const projects: Project[] = [
     link: "https://espesyal-fashion.vercel.app",
     description:
       "Bilingual women's fashion e-commerce platform including authentication, secure checkout, admin dashboard, and real-time order management.",
-    tech: ["Next.js 15", "TypeScript", "Tailwind CSS", "NextAuth", "MongoDB", "Paymob"],
+    tech: [
+      "Next.js 15",
+      "TypeScript",
+      "Tailwind CSS",
+      "NextAuth",
+      "MongoDB",
+      "Paymob",
+    ],
     metrics: ["Mobile-first UI", "Order Tracking", "Inventory Control"],
+  },
+  {
+    name: "Military LAN Workforce Management System",
+    role: "Fullstack Developer",
+    period: "Mar 2026 - Apr 2026",
+    icon: "https://res.cloudinary.com/darxwbvff/image/upload/v1781616302/ChatGPT_Image_Jun_16_2026_04_24_47_PM_ii205m.png",
+    visualClass: "project-visual-purple",
+    thumbnail:
+      "https://res.cloudinary.com/darxwbvff/image/upload/v1781615314/ChatGPT_Image_Jun_16_2026_04_04_56_PM_tvzaja.png",
+    github:
+      "https://github.com/ZyadEslam/Military-LAN-Workforce-Management-System",
+    link: "",
+    description:
+      "A full-stack web application built for military unit administrators to track daily personnel readiness, manage leave requests, and generate printable reports — all running on a closed LAN without internet dependency. The system supports two roles: Admin (officers) with full CRUD, analytics, and approval workflows, and Soldiers who submit and track their own leave requests. Real-time updates via WebSockets keep the dashboard and request queue in sync across devices on the network. Designed with an Arabic RTL interface, operational UX patterns (filters, status pills, metric cards), and a tactical visual theme suited for day-to-day unit management.",
+    tech: [
+      "Node.js",
+      "Express",
+      "Socket.io",
+      "JWT",
+      "bcrypt",
+      "Vanilla JavaScript",
+      "Chart.js",
+      "JSON file storage",
+    ],
+    metrics: [
+      "JWT authentication",
+      "Real-time dashboard analytics",
+      "Socket.io",
+    ],
   },
   {
     name: "Graphic Designer's Portfolio",
     role: "Frontend Developer",
     period: "Mar 2025 - Apr 2025",
-    icon: "palette",
+    icon: "https://res.cloudinary.com/darxwbvff/image/upload/v1779096422/khaled_bussiness_card-07_kh6qdr.png",
     visualClass: "project-visual-purple",
     thumbnail:
       "https://res.cloudinary.com/darxwbvff/image/upload/v1779017089/Thumbnail_mwm53f.png",
@@ -228,6 +273,35 @@ export const projects: Project[] = [
       "Responsive personal portfolio with smooth scroll animations, mobile-first layout, optimized Lighthouse performance, and pixel-perfect UI.",
     tech: ["Next.js", "Tailwind CSS", "Framer Motion"],
     metrics: ["Responsive Design", "Animations", "Performance Focus"],
+  },
+  {
+    name: "Biblomania System — Store Operations Dashboard",
+    role: "Full-stack developer",
+    period: "Oct 2024 - Dec 2024",
+    icon: "https://res.cloudinary.com/darxwbvff/image/upload/v1781622476/print_card_header_k63d9l.png",
+    visualClass: "project-visual-purple",
+    thumbnail:
+      "https://res.cloudinary.com/darxwbvff/image/upload/v1781622417/ChatGPT_Image_Jun_16_2026_06_06_36_PM_dtuyla.png",
+    github: "https://github.com/ZyadEslam/Biblomania-Store",
+    link: "",
+    description:
+      "Biblomania System is an internal web application for managing day-to-day bookstore operations: customer orders, multi-item book entries, shipping status, and expense tracking. It was designed for Arabic-speaking staff with an RTL-first UI and a visual language aligned with the Biblomania brand.",
+    tech: [
+      "Next.js 15 ",
+      " React 19 ",
+      "MongoDB ",
+      "Mongoose ",
+      "Tailwind CSS",
+      "REST API",
+      "Arabic RTL",
+    ],
+    metrics: [
+      "Order management",
+      "Expense trackin",
+      "Live dashboard",
+      "Search & pagination",
+      "Responsive layout ",
+    ],
   },
 ];
 
